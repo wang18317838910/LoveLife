@@ -7,9 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "MyTabBarViewController.h"
+#import "GuidePageView.h"
+#import "MMDrawerController.h"//抽屉第3方
+#import "LeftViewController.h"
+
+#import "UMSocialQQHandler.h"//支持QQ
+#import "UMSocialWechatHandler.h"//微信
+#import "UMSocialSinaHandler.h"//新浪
 
 @interface AppDelegate ()
 
+
+@property (nonatomic,strong) MyTabBarViewController *myTabBar;
+@property (nonatomic,strong) GuidePageView *guidePageView;
 @end
 
 @implementation AppDelegate
@@ -17,7 +28,73 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //实例化
+    self.myTabBar = [[MyTabBarViewController alloc] init];
+    LeftViewController *leftVC = [[LeftViewController alloc] init];
+    MMDrawerController *drawerVC = [[MMDrawerController alloc] initWithCenterViewController:self.myTabBar leftDrawerViewController:leftVC];
+    
+    //设置抽屉打开和关闭模式
+    drawerVC.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
+    drawerVC.closeDrawerGestureModeMask = MMCloseDrawerGestureModeAll;
+    
+    //设置左页面打开之后的高度
+    drawerVC.maximumLeftDrawerWidth = Screen_W - 100;
+
+    self.window.rootViewController = drawerVC;
+    
+    //修改状态栏的颜色(第二中方式)需要修改plist文件 在第一个添加选择最后一个,类型为BOOL,属性为NO
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    //添加引导页
+    [self createGuidepage];
+    
+    //注册友盟分享
+    [self addUMShare];
+    
     return YES;
+}
+
+#pragma mark -添加友盟分享
+- (void)addUMShare
+{
+    //注册友盟分享
+    [UMSocialData setAppKey:APPKEY];
+    
+    //设置QQ的APPId和APPKey和URL
+    [UMSocialQQHandler setQQWithAppId:@"1104908293" appKey:@"MnGtpPN5AiB6MNvj" url:nil];
+    
+    //设置微信的appID,appSecret和url
+    [UMSocialWechatHandler setWXAppId:@"wx12b249bcbf753e87" appSecret:@"0a9cd00c48ee47a9b23119086bcd3b30" url:nil];
+    
+    //打开微博的SSO开关
+    [UMSocialSinaHandler openSSOWithRedirectURL:nil];
+    
+    //隐藏未安装的客户端,(这一步只要针对QQ跟微信),如果不设置可能导致上传项目被拒
+    [UMSocialConfig hiddenNotInstallPlatforms:@[UMShareToQQ,UMShareToQzone,UMShareToWechatSession,UMShareToWechatTimeline]];
+    
+}
+
+#pragma mark -引导页
+- (void)createGuidepage
+{
+    //转为BOOL值...取值
+    if (![[[NSUserDefaults standardUserDefaults] objectForKey:@"isRuned"]boolValue]) {
+        
+        NSArray *imageArray = @[@"welcome4",@"welcome6",@"welcome7"];
+        self.guidePageView = [[GuidePageView alloc] initWithFrame:self.window.bounds ImageArray:imageArray];
+        [self.myTabBar.view addSubview:self.guidePageView];
+        
+        //第一次运行完成之后进行记录
+        [[NSUserDefaults standardUserDefaults] setObject:@YES forKey:@"isRuned"];
+    }
+    
+    [self.guidePageView.GoInAppButton addTarget:self action:@selector(goInButtonClick) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)goInButtonClick
+{
+    [self.guidePageView removeFromSuperview];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
