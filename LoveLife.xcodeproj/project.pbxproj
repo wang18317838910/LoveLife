@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC080C0C1C34C1F00093C5E7 /* FoodTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C0B1C34C1F00093C5E7 /* FoodTitleCollectionViewCell.m */; };
+		AC080C0F1C34C1FD0093C5E7 /* FoodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C0E1C34C1FD0093C5E7 /* FoodCollectionViewCell.m */; };
+		AC080C131C34C3580093C5E7 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C121C34C3580093C5E7 /* FoodModel.m */; };
+		AC080C161C34DB220093C5E7 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C151C34DB220093C5E7 /* PlayViewController.m */; };
+		AC080C191C3505F20093C5E7 /* RecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C181C3505F20093C5E7 /* RecordTableViewCell.m */; };
+		AC080C1C1C3506150093C5E7 /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C1B1C3506150093C5E7 /* RecordModel.m */; };
+		AC080C1F1C351D020093C5E7 /* FoodStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C1E1C351D020093C5E7 /* FoodStepViewController.m */; };
+		AC080C221C35515F0093C5E7 /* FoodStepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C211C35515F0093C5E7 /* FoodStepModel.m */; };
+		AC080C251C3552350093C5E7 /* FoodStepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C241C3552350093C5E7 /* FoodStepTableViewCell.m */; };
+		AC1D22701C37DA81000370B3 /* iconfont-download.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1D226F1C37DA81000370B3 /* iconfont-download.png */; };
+		ACEB87631C37862000BDA342 /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB87621C37862000BDA342 /* FoodDetailViewController.m */; };
+		ACEB87661C378E1C00BDA342 /* FoodDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB87651C378E1C00BDA342 /* FoodDetailModel.m */; };
+		ACEB87691C378E3A00BDA342 /* FoodDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB87681C378E3A00BDA342 /* FoodDetailTableViewCell.m */; };
+		ACEB876B1C379DE400BDA342 /* iconfont-fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEB876A1C379DE400BDA342 /* iconfont-fanhui.png */; };
+		ACEB876D1C37A2D900BDA342 /* iconfont-back.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEB876C1C37A2D900BDA342 /* iconfont-back.png */; };
 		ACF000001C3225AD008F0BB9 /* iconfont-qq-2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF0FEA91C3225AC008F0BB9 /* iconfont-qq-2.png */; };
 		ACF000011C3225AD008F0BB9 /* iconfont-qqkongjian.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF0FEAA1C3225AC008F0BB9 /* iconfont-qqkongjian.png */; };
 		ACF000021C3225AD008F0BB9 /* iconfont-shangyishou.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF0FEAB1C3225AC008F0BB9 /* iconfont-shangyishou.png */; };
@@ -231,6 +246,11 @@
 		ACF6B57B1C33D5BC007EC288 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF6B57A1C33D5BC007EC288 /* libstdc++.tbd */; };
 		ACF6B57D1C33D5C8007EC288 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF6B57C1C33D5C8007EC288 /* libz.tbd */; };
 		ACF6B57F1C33DCA9007EC288 /* iconfont-fenxiang-2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF6B57E1C33DCA9007EC288 /* iconfont-fenxiang-2.png */; };
+		ACFDE7221C3A49F400A49EAD /* MusicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDE7211C3A49F400A49EAD /* MusicCollectionViewCell.m */; };
+		ACFDE7251C3A4C2300A49EAD /* MusicReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDE7241C3A4C2300A49EAD /* MusicReusableView.m */; };
+		ACFDE7281C3A513E00A49EAD /* MusicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDE7271C3A513E00A49EAD /* MusicDetailViewController.m */; };
+		ACFDE72C1C3A554400A49EAD /* MusicDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDE72B1C3A554400A49EAD /* MusicDetailModel.m */; };
+		ACFDE72F1C3A557400A49EAD /* MusicDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDE72E1C3A557400A49EAD /* MusicDetailTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,6 +271,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC080C0A1C34C1F00093C5E7 /* FoodTitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTitleCollectionViewCell.h; sourceTree = "<group>"; };
+		AC080C0B1C34C1F00093C5E7 /* FoodTitleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTitleCollectionViewCell.m; sourceTree = "<group>"; };
+		AC080C0D1C34C1FD0093C5E7 /* FoodCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCollectionViewCell.h; sourceTree = "<group>"; };
+		AC080C0E1C34C1FD0093C5E7 /* FoodCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCollectionViewCell.m; sourceTree = "<group>"; };
+		AC080C111C34C3580093C5E7 /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		AC080C121C34C3580093C5E7 /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
+		AC080C141C34DB220093C5E7 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		AC080C151C34DB220093C5E7 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		AC080C171C3505F20093C5E7 /* RecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewCell.h; sourceTree = "<group>"; };
+		AC080C181C3505F20093C5E7 /* RecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewCell.m; sourceTree = "<group>"; };
+		AC080C1A1C3506150093C5E7 /* RecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordModel.h; sourceTree = "<group>"; };
+		AC080C1B1C3506150093C5E7 /* RecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordModel.m; sourceTree = "<group>"; };
+		AC080C1D1C351D020093C5E7 /* FoodStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodStepViewController.h; sourceTree = "<group>"; };
+		AC080C1E1C351D020093C5E7 /* FoodStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodStepViewController.m; sourceTree = "<group>"; };
+		AC080C201C35515F0093C5E7 /* FoodStepModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodStepModel.h; sourceTree = "<group>"; };
+		AC080C211C35515F0093C5E7 /* FoodStepModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodStepModel.m; sourceTree = "<group>"; };
+		AC080C231C3552350093C5E7 /* FoodStepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodStepTableViewCell.h; sourceTree = "<group>"; };
+		AC080C241C3552350093C5E7 /* FoodStepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodStepTableViewCell.m; sourceTree = "<group>"; };
+		AC1D226F1C37DA81000370B3 /* iconfont-download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-download.png"; sourceTree = "<group>"; };
+		ACEB87611C37862000BDA342 /* FoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailViewController.h; sourceTree = "<group>"; };
+		ACEB87621C37862000BDA342 /* FoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailViewController.m; sourceTree = "<group>"; };
+		ACEB87641C378E1C00BDA342 /* FoodDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailModel.h; sourceTree = "<group>"; };
+		ACEB87651C378E1C00BDA342 /* FoodDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailModel.m; sourceTree = "<group>"; };
+		ACEB87671C378E3A00BDA342 /* FoodDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailTableViewCell.h; sourceTree = "<group>"; };
+		ACEB87681C378E3A00BDA342 /* FoodDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailTableViewCell.m; sourceTree = "<group>"; };
+		ACEB876A1C379DE400BDA342 /* iconfont-fanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-fanhui.png"; sourceTree = "<group>"; };
+		ACEB876C1C37A2D900BDA342 /* iconfont-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-back.png"; sourceTree = "<group>"; };
 		ACF000B11C32356C008F0BB9 /* GuidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageView.h; sourceTree = "<group>"; };
 		ACF000B21C32356C008F0BB9 /* GuidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageView.m; sourceTree = "<group>"; };
 		ACF000B41C32601C008F0BB9 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
@@ -613,6 +660,16 @@
 		ACF6B57A1C33D5BC007EC288 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		ACF6B57C1C33D5C8007EC288 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		ACF6B57E1C33DCA9007EC288 /* iconfont-fenxiang-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-fenxiang-2.png"; sourceTree = "<group>"; };
+		ACFDE7201C3A49F400A49EAD /* MusicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCollectionViewCell.h; sourceTree = "<group>"; };
+		ACFDE7211C3A49F400A49EAD /* MusicCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCollectionViewCell.m; sourceTree = "<group>"; };
+		ACFDE7231C3A4C2300A49EAD /* MusicReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicReusableView.h; sourceTree = "<group>"; };
+		ACFDE7241C3A4C2300A49EAD /* MusicReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicReusableView.m; sourceTree = "<group>"; };
+		ACFDE7261C3A513E00A49EAD /* MusicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailViewController.h; sourceTree = "<group>"; };
+		ACFDE7271C3A513E00A49EAD /* MusicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailViewController.m; sourceTree = "<group>"; };
+		ACFDE72A1C3A554400A49EAD /* MusicDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailModel.h; sourceTree = "<group>"; };
+		ACFDE72B1C3A554400A49EAD /* MusicDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailModel.m; sourceTree = "<group>"; };
+		ACFDE72D1C3A557400A49EAD /* MusicDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailTableViewCell.h; sourceTree = "<group>"; };
+		ACFDE72E1C3A557400A49EAD /* MusicDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -661,6 +718,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC080C091C34C1CF0093C5E7 /* FoodCell */ = {
+			isa = PBXGroup;
+			children = (
+				AC080C0A1C34C1F00093C5E7 /* FoodTitleCollectionViewCell.h */,
+				AC080C0B1C34C1F00093C5E7 /* FoodTitleCollectionViewCell.m */,
+				AC080C0D1C34C1FD0093C5E7 /* FoodCollectionViewCell.h */,
+				AC080C0E1C34C1FD0093C5E7 /* FoodCollectionViewCell.m */,
+				ACEB87671C378E3A00BDA342 /* FoodDetailTableViewCell.h */,
+				ACEB87681C378E3A00BDA342 /* FoodDetailTableViewCell.m */,
+				AC080C231C3552350093C5E7 /* FoodStepTableViewCell.h */,
+				AC080C241C3552350093C5E7 /* FoodStepTableViewCell.m */,
+			);
+			path = FoodCell;
+			sourceTree = "<group>";
+		};
+		AC080C101C34C3310093C5E7 /* FoodModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC080C111C34C3580093C5E7 /* FoodModel.h */,
+				AC080C121C34C3580093C5E7 /* FoodModel.m */,
+				ACEB87641C378E1C00BDA342 /* FoodDetailModel.h */,
+				ACEB87651C378E1C00BDA342 /* FoodDetailModel.m */,
+				AC080C201C35515F0093C5E7 /* FoodStepModel.h */,
+				AC080C211C35515F0093C5E7 /* FoodStepModel.m */,
+			);
+			path = FoodModel;
+			sourceTree = "<group>";
+		};
 		ACF000B71C3272BE008F0BB9 /* HomeModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -703,6 +788,8 @@
 		ACF0FC291C3219E8008F0BB9 /* LoveLife */ = {
 			isa = PBXGroup;
 			children = (
+				ACF0FE9D1C3225AC008F0BB9 /* Images */,
+				ACF0FEF71C3225AC008F0BB9 /* ThirdLibrary */,
 				ACF0FE7F1C322150008F0BB9 /* ViewControllers */,
 				ACF0FE801C322150008F0BB9 /* Views */,
 				ACF0FE7E1C322145008F0BB9 /* Models */,
@@ -766,6 +853,8 @@
 		ACF0FE7E1C322145008F0BB9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ACFDE7291C3A552C00A49EAD /* MusicModel */,
+				AC080C101C34C3310093C5E7 /* FoodModel */,
 				ACF6B5671C33AEF7007EC288 /* ReadModel */,
 				ACF000B71C3272BE008F0BB9 /* HomeModel */,
 			);
@@ -775,8 +864,6 @@
 		ACF0FE7F1C322150008F0BB9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				ACF0FE9D1C3225AC008F0BB9 /* Images */,
-				ACF0FEF71C3225AC008F0BB9 /* ThirdLibrary */,
 				ACF0FE811C3221AB008F0BB9 /* BaseVC */,
 				ACF0FE821C3221AB008F0BB9 /* FoodVC */,
 				ACF0FE831C3221AB008F0BB9 /* HomeVC */,
@@ -790,6 +877,8 @@
 		ACF0FE801C322150008F0BB9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACFDE71F1C3A49D200A49EAD /* MusicCell */,
+				AC080C091C34C1CF0093C5E7 /* FoodCell */,
 				ACF6B56B1C33B2FB007EC288 /* ReadCell */,
 				ACF000BB1C3278EB008F0BB9 /* HomeCell */,
 				ACF000B11C32356C008F0BB9 /* GuidePageView.h */,
@@ -816,6 +905,12 @@
 			children = (
 				ACF0FE8A1C322248008F0BB9 /* FoodViewController.h */,
 				ACF0FE8B1C322248008F0BB9 /* FoodViewController.m */,
+				AC080C141C34DB220093C5E7 /* PlayViewController.h */,
+				AC080C151C34DB220093C5E7 /* PlayViewController.m */,
+				ACEB87611C37862000BDA342 /* FoodDetailViewController.h */,
+				ACEB87621C37862000BDA342 /* FoodDetailViewController.m */,
+				AC080C1D1C351D020093C5E7 /* FoodStepViewController.h */,
+				AC080C1E1C351D020093C5E7 /* FoodStepViewController.m */,
 			);
 			path = FoodVC;
 			sourceTree = "<group>";
@@ -836,6 +931,8 @@
 			children = (
 				ACF0FE901C32225E008F0BB9 /* MusicViewController.h */,
 				ACF0FE911C32225E008F0BB9 /* MusicViewController.m */,
+				ACFDE7261C3A513E00A49EAD /* MusicDetailViewController.h */,
+				ACFDE7271C3A513E00A49EAD /* MusicDetailViewController.m */,
 			);
 			path = MusicVC;
 			sourceTree = "<group>";
@@ -872,7 +969,8 @@
 				ACF0FEDE1C3225AC008F0BB9 /* Tabbar */,
 				ACF0FEED1C3225AC008F0BB9 /* Welcome */,
 			);
-			path = Images;
+			name = Images;
+			path = ViewControllers/Images;
 			sourceTree = "<group>";
 		};
 		ACF0FE9E1C3225AC008F0BB9 /* DetailImage */ = {
@@ -903,6 +1001,9 @@
 		ACF0FEB11C3225AC008F0BB9 /* Food */ = {
 			isa = PBXGroup;
 			children = (
+				AC1D226F1C37DA81000370B3 /* iconfont-download.png */,
+				ACEB876C1C37A2D900BDA342 /* iconfont-back.png */,
+				ACEB876A1C379DE400BDA342 /* iconfont-fanhui.png */,
 				ACF0FEB21C3225AC008F0BB9 /* iconfont-bofang.png */,
 				ACF0FEB31C3225AC008F0BB9 /* 矢量智能对象口味@2x.png */,
 				ACF0FEB41C3225AC008F0BB9 /* 矢量智能对象口味@3x.png */,
@@ -1034,7 +1135,8 @@
 				ACF0FF871C3225AD008F0BB9 /* UMShare */,
 				ACF0FFB71C3225AD008F0BB9 /* ZBarSDK */,
 			);
-			path = ThirdLibrary;
+			name = ThirdLibrary;
+			path = ViewControllers/ThirdLibrary;
 			sourceTree = "<group>";
 		};
 		ACF0FEF81C3225AC008F0BB9 /* AFNetworking */ = {
@@ -1535,6 +1637,8 @@
 			children = (
 				ACF6B5681C33AF07007EC288 /* ReadModel.h */,
 				ACF6B5691C33AF07007EC288 /* ReadModel.m */,
+				AC080C1A1C3506150093C5E7 /* RecordModel.h */,
+				AC080C1B1C3506150093C5E7 /* RecordModel.m */,
 			);
 			path = ReadModel;
 			sourceTree = "<group>";
@@ -1544,8 +1648,32 @@
 			children = (
 				ACF6B56C1C33B31B007EC288 /* ArticalTableViewCell.h */,
 				ACF6B56D1C33B31B007EC288 /* ArticalTableViewCell.m */,
+				AC080C171C3505F20093C5E7 /* RecordTableViewCell.h */,
+				AC080C181C3505F20093C5E7 /* RecordTableViewCell.m */,
 			);
 			path = ReadCell;
+			sourceTree = "<group>";
+		};
+		ACFDE71F1C3A49D200A49EAD /* MusicCell */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDE7201C3A49F400A49EAD /* MusicCollectionViewCell.h */,
+				ACFDE7211C3A49F400A49EAD /* MusicCollectionViewCell.m */,
+				ACFDE7231C3A4C2300A49EAD /* MusicReusableView.h */,
+				ACFDE7241C3A4C2300A49EAD /* MusicReusableView.m */,
+				ACFDE72D1C3A557400A49EAD /* MusicDetailTableViewCell.h */,
+				ACFDE72E1C3A557400A49EAD /* MusicDetailTableViewCell.m */,
+			);
+			path = MusicCell;
+			sourceTree = "<group>";
+		};
+		ACFDE7291C3A552C00A49EAD /* MusicModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDE72A1C3A554400A49EAD /* MusicDetailModel.h */,
+				ACFDE72B1C3A554400A49EAD /* MusicDetailModel.m */,
+			);
+			path = MusicModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1657,7 +1785,9 @@
 				ACF000B01C3225AD008F0BB9 /* qrcode_scan_titlebar_back_pressed@2x.png in Resources */,
 				ACF0FFF91C3225AD008F0BB9 /* iconfont-bofang-4.png in Resources */,
 				ACF000691C3225AD008F0BB9 /* MJRefresh.bundle in Resources */,
+				AC1D22701C37DA81000370B3 /* iconfont-download.png in Resources */,
 				ACF0003F1C3225AD008F0BB9 /* welcome1.png in Resources */,
+				ACEB876B1C379DE400BDA342 /* iconfont-fanhui.png in Resources */,
 				ACF0001E1C3225AD008F0BB9 /* shili0.png in Resources */,
 				ACF000321C3225AD008F0BB9 /* ic_tab_category_selected@2x.png in Resources */,
 				ACF000071C3225AD008F0BB9 /* iconfont-zanting.png in Resources */,
@@ -1744,6 +1874,7 @@
 				ACF0003A1C3225AD008F0BB9 /* iconfont-iconfontmeishi.png in Resources */,
 				ACF000A61C3225AD008F0BB9 /* qrcode_scan_bg_Green_iphone5@2x.png in Resources */,
 				ACF000861C3225AD008F0BB9 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				ACEB876D1C37A2D900BDA342 /* iconfont-back.png in Resources */,
 				ACF0003E1C3225AD008F0BB9 /* LinkedIn.png in Resources */,
 				ACF000081C3225AD008F0BB9 /* iconfont-bofang.png in Resources */,
 				ACF0000D1C3225AD008F0BB9 /* 矢量智能对象难易度@2x.png in Resources */,
@@ -1789,7 +1920,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACFDE72F1C3A557400A49EAD /* MusicDetailTableViewCell.m in Sources */,
 				ACF000981C3225AD008F0BB9 /* mask.c in Sources */,
+				ACEB87631C37862000BDA342 /* FoodDetailViewController.m in Sources */,
 				ACF0009D1C3225AD008F0BB9 /* rscode.c in Sources */,
 				ACF000BE1C3278FD008F0BB9 /* HomeCell.m in Sources */,
 				ACF0006B1C3225AD008F0BB9 /* UIScrollView+MJExtension.m in Sources */,
@@ -1825,12 +1958,14 @@
 				ACF000821C3225AD008F0BB9 /* ZLSwipeableView.m in Sources */,
 				ACF000671C3225AD008F0BB9 /* MJRefreshNormalHeader.m in Sources */,
 				ACF0004D1C3225AD008F0BB9 /* AFURLResponseSerialization.m in Sources */,
+				AC080C1C1C3506150093C5E7 /* RecordModel.m in Sources */,
 				ACF0007D1C3225AD008F0BB9 /* UIView+WebCacheOperation.m in Sources */,
 				ACF000BA1C3276E9008F0BB9 /* HomeModel.m in Sources */,
 				ACF000521C3225AD008F0BB9 /* MMDrawerVisualState.m in Sources */,
 				ACF000651C3225AD008F0BB9 /* MJRefreshBackStateFooter.m in Sources */,
 				ACF000701C3225AD008F0BB9 /* SDImageCache.m in Sources */,
 				ACF0006E1C3225AD008F0BB9 /* MKAnnotationView+WebCache.m in Sources */,
+				ACFDE72C1C3A554400A49EAD /* MusicDetailModel.m in Sources */,
 				ACF000551C3225AD008F0BB9 /* FMDatabase.m in Sources */,
 				ACF000661C3225AD008F0BB9 /* MJRefreshGifHeader.m in Sources */,
 				ACF6B56E1C33B31B007EC288 /* ArticalTableViewCell.m in Sources */,
@@ -1841,7 +1976,9 @@
 				ACF000501C3225AD008F0BB9 /* MMDrawerBarButtonItem.m in Sources */,
 				ACF000511C3225AD008F0BB9 /* MMDrawerController.m in Sources */,
 				ACF000631C3225AD008F0BB9 /* MJRefreshBackGifFooter.m in Sources */,
+				AC080C161C34DB220093C5E7 /* PlayViewController.m in Sources */,
 				ACF6B5191C336981007EC288 /* HomeDetaViewController.m in Sources */,
+				AC080C0C1C34C1F00093C5E7 /* FoodTitleCollectionViewCell.m in Sources */,
 				ACF0FC2F1C3219E8008F0BB9 /* AppDelegate.m in Sources */,
 				ACF0FC2C1C3219E8008F0BB9 /* main.m in Sources */,
 				ACF0006A1C3225AD008F0BB9 /* MJRefreshConst.m in Sources */,
@@ -1850,14 +1987,22 @@
 				ACF6B5711C33CAD6007EC288 /* ArticalDetailViewController.m in Sources */,
 				ACF000541C3225AD008F0BB9 /* FactoryUI.m in Sources */,
 				ACF0007C1C3225AD008F0BB9 /* UIImageView+WebCache.m in Sources */,
+				AC080C131C34C3580093C5E7 /* FoodModel.m in Sources */,
 				ACF0004C1C3225AD008F0BB9 /* AFURLRequestSerialization.m in Sources */,
 				ACF0005A1C3225AD008F0BB9 /* MBProgressHUD.m in Sources */,
 				ACF000491C3225AD008F0BB9 /* AFNetworkReachabilityManager.m in Sources */,
 				ACF0007A1C3225AD008F0BB9 /* UIImage+WebP.m in Sources */,
+				ACFDE7221C3A49F400A49EAD /* MusicCollectionViewCell.m in Sources */,
+				AC080C1F1C351D020093C5E7 /* FoodStepViewController.m in Sources */,
 				ACF6B56A1C33AF07007EC288 /* ReadModel.m in Sources */,
+				AC080C251C3552350093C5E7 /* FoodStepTableViewCell.m in Sources */,
 				ACF000561C3225AD008F0BB9 /* FMDatabaseAdditions.m in Sources */,
+				ACFDE7251C3A4C2300A49EAD /* MusicReusableView.m in Sources */,
 				ACF000591C3225AD008F0BB9 /* FMResultSet.m in Sources */,
 				ACF0009A1C3225AD008F0BB9 /* qrencode.c in Sources */,
+				ACEB87661C378E1C00BDA342 /* FoodDetailModel.m in Sources */,
+				AC080C191C3505F20093C5E7 /* RecordTableViewCell.m in Sources */,
+				AC080C0F1C34C1FD0093C5E7 /* FoodCollectionViewCell.m in Sources */,
 				ACF6B51E1C338192007EC288 /* ArticalViewController.m in Sources */,
 				ACF0006D1C3225AD008F0BB9 /* UIView+MJExtension.m in Sources */,
 				ACF0FE8C1C322248008F0BB9 /* FoodViewController.m in Sources */,
@@ -1874,9 +2019,12 @@
 				ACF0006C1C3225AD008F0BB9 /* UIScrollView+MJRefresh.m in Sources */,
 				ACF0005B1C3225AD008F0BB9 /* MJRefreshAutoFooter.m in Sources */,
 				ACF0007F1C3225AD008F0BB9 /* CycleImageCell.m in Sources */,
+				ACFDE7281C3A513E00A49EAD /* MusicDetailViewController.m in Sources */,
 				ACF000581C3225AD008F0BB9 /* FMDatabaseQueue.m in Sources */,
 				ACF0005E1C3225AD008F0BB9 /* MJRefreshFooter.m in Sources */,
 				ACF000711C3225AD008F0BB9 /* SDWebImageCompat.m in Sources */,
+				ACEB87691C378E3A00BDA342 /* FoodDetailTableViewCell.m in Sources */,
+				AC080C221C35515F0093C5E7 /* FoodStepModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

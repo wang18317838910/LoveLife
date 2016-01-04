@@ -137,12 +137,14 @@
     [bgView addSubview:indexLabel];
     
     //标题
-    UILabel *titleLabel = [FactoryUI createLabelWithFrame:CGRectMake(indexLabel.frame.size.width + indexLabel.frame.origin.x + 10, 10, Screen_W - 50 - 10 - 70, 40) text:nil textColor:[UIColor lightGrayColor] font:[UIFont systemFontOfSize:18]];
+    UILabel *titleLabel = [FactoryUI createLabelWithFrame:CGRectMake(indexLabel.frame.size.width + indexLabel.frame.origin.x + 5, 10, Screen_W - 50 - 5 - 60, 40) text:nil textColor:[UIColor lightGrayColor] font:[UIFont systemFontOfSize:16]];
     titleLabel.textAlignment = NSTextAlignmentLeft;
+   // titleLabel.numberOfLines = 0;
+   // titleLabel.lineBreakMode = NSLineBreakByCharWrapping;
     [bgView addSubview:titleLabel];
     
     //价钱
-    UIButton *buyButton = [FactoryUI createButtonWithFrame:CGRectMake(Screen_W - 70, 10, 60, 40) title:nil titleColor:[UIColor darkGrayColor] imageName:nil backgroundImageName:nil target:self selector:@selector(priceButtonClick)];
+    UIButton *buyButton = [FactoryUI createButtonWithFrame:CGRectMake(Screen_W - 60, 10, 60, 40) title:nil titleColor:[UIColor darkGrayColor] imageName:nil backgroundImageName:nil target:self selector:@selector(priceButtonClick)];
     buyButton.titleLabel.font = [UIFont systemFontOfSize:14];
     [bgView addSubview:buyButton];
    
