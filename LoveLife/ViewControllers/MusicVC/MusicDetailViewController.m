@@ -10,6 +10,10 @@
 #import "MBProgressHUD.h"
 #import "MusicDetailModel.h"
 #import "MusicDetailTableViewCell.h"
+<<<<<<< Updated upstream
+=======
+#import "MusicPlayViewController.h"
+>>>>>>> Stashed changes
 
 @interface MusicDetailViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
@@ -19,9 +23,18 @@
 }
 ///数据源
 @property (nonatomic,strong) NSMutableArray *dataArray;
+<<<<<<< Updated upstream
 
 @property (nonatomic,strong) MBProgressHUD *hub;
 
+=======
+@property (nonatomic,strong) MBProgressHUD *hub;
+
+@property (nonatomic,strong) NSMutableArray *urlArray;
+@property (nonatomic,strong) NSMutableArray *titleArray;
+@property (nonatomic,strong) NSMutableArray *artistArray;
+@property (nonatomic,strong) NSMutableArray *imagearray;
+>>>>>>> Stashed changes
 @end
 
 @implementation MusicDetailViewController
@@ -31,13 +44,39 @@
     
     _page = 0;
     self.dataArray = [NSMutableArray arrayWithCapacity:0];
+<<<<<<< Updated upstream
+=======
+    
+    self.urlArray = [NSMutableArray arrayWithCapacity:0];
+    self.titleArray = [NSMutableArray arrayWithCapacity:0];
+    self.artistArray = [NSMutableArray arrayWithCapacity:0];
+    self.imagearray = [NSMutableArray arrayWithCapacity:0];
+    
+>>>>>>> Stashed changes
     //刚进去后显示的数据
     [self loadData];
     
     [self settingNav];
     [self createUI];
+<<<<<<< Updated upstream
     [self createRefresh];
     
+=======
+    
+    //1.创建队列组
+    dispatch_group_t group = dispatch_group_create();
+    //2.创建队列
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    
+    //3.多次使用队列组的方法执行任务, 只有异步方法
+    
+    dispatch_group_async(group, queue, ^{
+        
+        [self createRefresh];
+        
+    });
+ 
+>>>>>>> Stashed changes
 }
 
 #pragma mark -加载数据
@@ -65,6 +104,22 @@
         
         for (NSDictionary *dic in responseObject[@"data"]) {
             
+<<<<<<< Updated upstream
+=======
+            //mp3文件
+            [self.urlArray addObject:dic[@"url"]];
+            
+            //title  歌名
+            [self.titleArray addObject:dic[@"title"]];
+            //歌手
+            [self.artistArray addObject:dic[@"artist"]];
+            //歌名
+            //[self.titleArray addObject:dic[@"title"]];
+            //图片
+            [self.imagearray addObject:dic[@"coverURL"]];
+            
+            
+>>>>>>> Stashed changes
             MusicDetailModel *model = [[MusicDetailModel alloc] init];
             
             //字典转模型
@@ -75,6 +130,10 @@
         //数据请求成功后,停止刷新,结束活动指示器,刷新界面
         [_tableView.footer endRefreshing];
         [self.hub hide:YES];
+<<<<<<< Updated upstream
+=======
+       
+>>>>>>> Stashed changes
         [_tableView reloadData];
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
@@ -102,7 +161,11 @@
     self.hub.labelColor = [UIColor whiteColor];
     
     //设置背景颜色
+<<<<<<< Updated upstream
     self.hub.backgroundColor = [UIColor colorWithWhite:0 alpha:0.2];
+=======
+    self.hub.backgroundColor = [UIColor colorWithWhite:0 alpha:0.6];
+>>>>>>> Stashed changes
     
     //设置中间指示器的颜色
     self.hub.activityIndicatorColor = [UIColor whiteColor];
@@ -139,7 +202,26 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+<<<<<<< Updated upstream
     
+=======
+    MusicPlayViewController *musicPlay = [[MusicPlayViewController alloc] init];
+    
+    
+    //传值
+    MusicDetailModel *model = self.dataArray[indexPath.row];
+    musicPlay.model = model;
+    
+    musicPlay.urlArray = self.urlArray;
+    
+    musicPlay.titleArray = self.titleArray;
+    musicPlay.artistArray = self.artistArray;
+    musicPlay.imageArray = self.imagearray;
+    
+    musicPlay.currentIndex = (int)indexPath.row ;
+   
+    [self.navigationController pushViewController:musicPlay animated:YES];
+>>>>>>> Stashed changes
 }
 
 #pragma mark -设置导航

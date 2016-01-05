@@ -17,6 +17,12 @@
 		AC080C221C35515F0093C5E7 /* FoodStepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C211C35515F0093C5E7 /* FoodStepModel.m */; };
 		AC080C251C3552350093C5E7 /* FoodStepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080C241C3552350093C5E7 /* FoodStepTableViewCell.m */; };
 		AC1D22701C37DA81000370B3 /* iconfont-download.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1D226F1C37DA81000370B3 /* iconfont-download.png */; };
+<<<<<<< Updated upstream
+=======
+		AC800CCD1C3B556400FD7AB0 /* MusicPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC800CCC1C3B556400FD7AB0 /* MusicPlayViewController.m */; };
+		AC952D1B1C3BBB8A00389DC2 /* AboutMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC952D1A1C3BBB8A00389DC2 /* AboutMyViewController.m */; };
+		AC952D1D1C3BBD6700389DC2 /* iconfont-fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = AC952D1C1C3BBD6700389DC2 /* iconfont-fanhui.png */; };
+>>>>>>> Stashed changes
 		ACEB87631C37862000BDA342 /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB87621C37862000BDA342 /* FoodDetailViewController.m */; };
 		ACEB87661C378E1C00BDA342 /* FoodDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB87651C378E1C00BDA342 /* FoodDetailModel.m */; };
 		ACEB87691C378E3A00BDA342 /* FoodDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB87681C378E3A00BDA342 /* FoodDetailTableViewCell.m */; };
@@ -290,6 +296,14 @@
 		AC080C231C3552350093C5E7 /* FoodStepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodStepTableViewCell.h; sourceTree = "<group>"; };
 		AC080C241C3552350093C5E7 /* FoodStepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodStepTableViewCell.m; sourceTree = "<group>"; };
 		AC1D226F1C37DA81000370B3 /* iconfont-download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-download.png"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		AC800CCB1C3B556400FD7AB0 /* MusicPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayViewController.h; sourceTree = "<group>"; };
+		AC800CCC1C3B556400FD7AB0 /* MusicPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayViewController.m; sourceTree = "<group>"; };
+		AC952D191C3BBB8A00389DC2 /* AboutMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMyViewController.h; sourceTree = "<group>"; };
+		AC952D1A1C3BBB8A00389DC2 /* AboutMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMyViewController.m; sourceTree = "<group>"; };
+		AC952D1C1C3BBD6700389DC2 /* iconfont-fanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-fanhui.png"; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		ACEB87611C37862000BDA342 /* FoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailViewController.h; sourceTree = "<group>"; };
 		ACEB87621C37862000BDA342 /* FoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailViewController.m; sourceTree = "<group>"; };
 		ACEB87641C378E1C00BDA342 /* FoodDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailModel.h; sourceTree = "<group>"; };
@@ -933,6 +947,11 @@
 				ACF0FE911C32225E008F0BB9 /* MusicViewController.m */,
 				ACFDE7261C3A513E00A49EAD /* MusicDetailViewController.h */,
 				ACFDE7271C3A513E00A49EAD /* MusicDetailViewController.m */,
+<<<<<<< Updated upstream
+=======
+				AC800CCB1C3B556400FD7AB0 /* MusicPlayViewController.h */,
+				AC800CCC1C3B556400FD7AB0 /* MusicPlayViewController.m */,
+>>>>>>> Stashed changes
 			);
 			path = MusicVC;
 			sourceTree = "<group>";
@@ -942,6 +961,8 @@
 			children = (
 				ACF0FE931C322268008F0BB9 /* MyViewController.h */,
 				ACF0FE941C322268008F0BB9 /* MyViewController.m */,
+				AC952D191C3BBB8A00389DC2 /* AboutMyViewController.h */,
+				AC952D1A1C3BBB8A00389DC2 /* AboutMyViewController.m */,
 			);
 			path = MyVC;
 			sourceTree = "<group>";
@@ -1051,6 +1072,7 @@
 		ACF0FEC71C3225AC008F0BB9 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				AC952D1C1C3BBD6700389DC2 /* iconfont-fanhui.png */,
 				ACF0FEC81C3225AC008F0BB9 /* iconfont-bofangqishangyiqu.png */,
 				ACF0FEC91C3225AC008F0BB9 /* iconfont-bofangqixiayiqu.png */,
 				ACF0FECA1C3225AC008F0BB9 /* iconfont-musicbofang.png */,
@@ -1894,6 +1916,7 @@
 				ACF000A51C3225AD008F0BB9 /* qrcode_scan_bg_Green@2x.png in Resources */,
 				ACF0001A1C3225AD008F0BB9 /* iconfont-bofangqishangyiqu.png in Resources */,
 				ACF0FFFF1C3225AD008F0BB9 /* iconfont-pengyouquan.png in Resources */,
+				AC952D1D1C3BBD6700389DC2 /* iconfont-fanhui.png in Resources */,
 				ACF0008B1C3225AD008F0BB9 /* UMSCommentInputControlleriPad.xib in Resources */,
 				ACF000441C3225AD008F0BB9 /* welcome6.png in Resources */,
 			);
@@ -1942,6 +1965,7 @@
 				ACF0FE9B1C3222A1008F0BB9 /* MyTabBarViewController.m in Sources */,
 				ACF0FE891C32220D008F0BB9 /* RootViewController.m in Sources */,
 				ACF6B5211C3381A5007EC288 /* RecordViewController.m in Sources */,
+				AC800CCD1C3B556400FD7AB0 /* MusicPlayViewController.m in Sources */,
 				ACF0004F1C3225AD008F0BB9 /* FLSideSlipViewController.m in Sources */,
 				ACF000731C3225AD008F0BB9 /* SDWebImageDownloader.m in Sources */,
 				ACF000751C3225AD008F0BB9 /* SDWebImageManager.m in Sources */,
@@ -2020,6 +2044,10 @@
 				ACF0005B1C3225AD008F0BB9 /* MJRefreshAutoFooter.m in Sources */,
 				ACF0007F1C3225AD008F0BB9 /* CycleImageCell.m in Sources */,
 				ACFDE7281C3A513E00A49EAD /* MusicDetailViewController.m in Sources */,
+<<<<<<< Updated upstream
+=======
+				AC952D1B1C3BBB8A00389DC2 /* AboutMyViewController.m in Sources */,
+>>>>>>> Stashed changes
 				ACF000581C3225AD008F0BB9 /* FMDatabaseQueue.m in Sources */,
 				ACF0005E1C3225AD008F0BB9 /* MJRefreshFooter.m in Sources */,
 				ACF000711C3225AD008F0BB9 /* SDWebImageCompat.m in Sources */,
